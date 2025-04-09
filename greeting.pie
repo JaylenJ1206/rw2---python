@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+#this is my 1st python program
+# this is a comment
+greeting = "hello RW2 cyber class!"
+
+print(greeting)
