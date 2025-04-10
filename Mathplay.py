@@ -12,6 +12,6 @@ print(myname + " " + mymesg)
 
 
 product = mynum1 * mynum2 
-product + str(product)
+product = str(product)
 
-print("the answer is: " + str(product))
+print("the answer is: " + product)
