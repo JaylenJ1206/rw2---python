@@ -13,6 +13,7 @@ enter ...
 2 for paper
 3 for scissors:\n\n
 """
+rps = ("nothing","rock" ,"paper","sissors")
 
 playerchoice =input(mesg)
 player = int(playerchoice)
@@ -28,18 +29,18 @@ computerchoice =random.choice("123")
 computer =int(computerchoice)
 
 print("")
-print("You chose " + playerchoice + ".")
-print("Python chose " +computerchoice + ".")
+print("You chose " + playerchoice + " " + rps[player] + ".")
+print("Python chose " +computerchoice + " " + rps[computer] + ".")
 print("")
 
 
 if player == 1 and computer == 3:
-     print("you win!")
+     print("🫡you win!")
 elif player == 2 and computer == 1:
-     print("you win!")
+     print("🤫you win!")
 elif player == 3 and computer == 1:
-     print("you win!")
+     print("🫣you win!")
 elif player == computer:
-     print("Tie game!")
+     print("🤔Tie game!")
 else:
-     print("python wins")
+     print("👾python wins")
