@@ -1,9 +1,5 @@
-#string data type
-
-# litaral assinment
-First = "Jaylen"
-Last  = "Johnson"
-
-print(type(first))
-print(type(first) = str)
-print (isinstance(first, str))
+#consructor function
+pizza = str("pepperoni")
+print(type(pizza))
+print(type(pizza) == str)
+print(isinstance(pizza, str))
